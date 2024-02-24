@@ -13,6 +13,7 @@ public class JenkinsPocApplication {
 	public static Logger logger = LoggerFactory.getLogger(JenkinsPocApplication.class);
 	public void sampleMethod(){
 		logger.info("Application  log started");
+		logger.info("Application  log started second time");
 
 	}
 	public static void main(String[] args) {
