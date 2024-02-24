@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JenkinsPocApplication {
 
 	public static Logger logger = LoggerFactory.getLogger(JenkinsPocApplication.class);
-	public void sampleMethod(){
+	public  sampleMethod(){
 		logger.info("Application  log started");
 		logger.info("Application  log started second time");
 
