@@ -10,12 +10,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JenkinsPocApplication {
 
-	Logger logger = LoggerFactory.getLogger(JenkinsPocApplication.class);
+	public static Logger logger = LoggerFactory.getLogger(JenkinsPocApplication.class);
 	public void sampleMethod(){
 		logger.info("Application  log started");
 
 	}
 	public static void main(String[] args) {
+		logger.info(" spring main class executed");
 		SpringApplication.run(JenkinsPocApplication.class, args);
 	}
 
